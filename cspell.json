@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "buyme",
+    "commitlint",
+    "hookform",
+    "Ploni",
+    "svgrrc",
+    "tanstack",
+    "testid",
+    "tiktok",
+    "vitejs",
+    "vitest",
+    "waze"
+  ],
+  "ignoreWords": [
+    "svgr"
+  ],
+  "import": []
+}

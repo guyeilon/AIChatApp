@@ -1,0 +1,36 @@
+import type { SVGProps } from 'react';
+
+const SvgStepperNiceToMeet = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 33 32"
+    {...props}
+  >
+    <path
+      fill="url(#stepperNiceToMeet_svg__a)"
+      d="M.5 0h32v32H.5z"
+      opacity={0.7}
+    />
+    <defs>
+      <pattern
+        id="stepperNiceToMeet_svg__a"
+        width={1}
+        height={1}
+        patternContentUnits="objectBoundingBox"
+      >
+        <use xlinkHref="#stepperNiceToMeet_svg__b" transform="scale(.01563)" />
+      </pattern>
+      <image
+        xlinkHref="data:image/png;base64,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"
+        id="stepperNiceToMeet_svg__b"
+        width={64}
+        height={64}
+      />
+    </defs>
+  </svg>
+);
+export default SvgStepperNiceToMeet;
